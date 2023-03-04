@@ -21,27 +21,46 @@ body {
 /*TYPOGRAPHY*/
 
 h2{
-    font-size: xxx-large;
+    font-size: 2.33rem;
     margin: 0;
-    line-height: 1.5;
+    line-height: 2;
 }
 
 #my-story, .year, .title, h3{
-    font-size: x-large;
+    font-size: 1.5rem;
     margin: 0;
-    line-height: 1.5;
+    line-height: 2;
+}
+
+#simple-is-better{
+    margin-top: 0.75em;
+}
+
+.page--one--right--education .title {
+    font-weight: bolder;
+}
+
+.page--one--right{
+    
+    font-weight: 400;
 }
 
 .description, .institution-name{
-    font-size: large;
+    font-size: 1.25rem;
     margin: 0;
-    line-height: 1.5;
+}
+
+.year{
+    font-style: italic;
 }
 
 #job-title{
-    font-size: xx-large;
+    font-size: 1.5rem;
     margin: 0;
-    line-height: 1.5;
+}
+
+.milestone{
+    margin: 1.5em 0;
 }
 
 /*END OF TYPOGRAPHY*/
@@ -51,6 +70,7 @@ h2{
     display:flex;
     flex: column;
     padding: 6.7rem;
+    padding-bottom: 0;
 }
 
 
@@ -75,12 +95,27 @@ h2{
 
 .milestone{
     display: flex;
+    flex-direction: row;
 }
 
-.title{
-    margin-left: 1em;
+
+.milestone-right{
+    margin-left: 1.5em;
 }
 
+/*BUTTON*/
+
+button{
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+    padding: 0.5em 2em;
+    color: var(--tertiary-color);
+    background-color: var(--primary-color);
+    margin-top: 10%;
+    margin-left: auto;
+    cursor: pointer;
+}
 
 /*Page 2*/
 
