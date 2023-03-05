@@ -1,0 +1,35 @@
+:root{
+    --primary-color: #343c52;
+    --secondary-color: #a0c8f6;
+    --tertiary-color: #d6e7fa;
+}
+
+/*PAGE TWO*/
+body{
+    background-color: var(--secondary-color);
+}
+.page--two{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    padding: 6.7rem;
+    padding-bottom: 0;
+}
+
+.project-picture-circle{
+    height: 300px;
+    width: 300px;
+    border: solid 4px var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.project-picture{
+    max-width: 100%;
+    max-height: 100%;
+}
