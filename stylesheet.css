@@ -113,9 +113,11 @@ button{
     background-color: var(--primary-color);
     margin-left: auto;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 /*Page 2*/
+
 .page--two--title{
     display: flex;
     flex-direction:row;
@@ -137,18 +139,23 @@ button{
     grid-template-rows: 1fr 1fr;
     align-items: center;
     justify-items: center;
+    justify-content: center;
+    align-content: center;
     padding: 0 6.7rem;
     color: var(--primary-color);
+    font-size: 1.25rem;
+    text-align: center;
 }
 
 .project-picture-circle{
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     border: solid 4px var(--primary-color);
     border-radius: 50%;
     display: flex;
     justify-items: center;
     align-items: center;
+    justify-content: center;
     overflow: hidden;
 }
 
@@ -157,9 +164,46 @@ button{
     max-height: 100%;
 }
 
+div.projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /*Page 3*/
 
 .footer{
+    display: flex;
+    flex-direction: row;
     background-color: var(--primary-color);
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
 }
+
+.socials{
+    margin-left: 6.7rem;
+    font-size: 3rem;
+}
+
+i {
+    margin-left: 2rem;
+    padding-bottom: 4rem;
+
+}
+.fa-linkedin{
+    margin-left: 0;
+}
+
+i, i:visited{
+    color:var(--tertiary-color)
+}
+
+.email{
+    margin-left: auto;
+    margin-right: 6.7rem;
+}
+
+

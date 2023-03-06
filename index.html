@@ -1,93 +1,135 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Edward O</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.3.0/css/all.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First page</title>
+    <link rel="stylesheet" href="./stylesheet.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.3.0/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arimo">
 </head>
 <body>
-  <header>
-    <h1>Edward O</h1>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#skills">Skills</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <section id="about">
-      <img id="main-image" src="./resources/img3.jpg">
-      <h2>About Me</h2>
-      <p>Hi! My name is Edward, and I am a technical writer. I write various documentation, including online help and technical content. </p>
-      <p>I am currently employed full-time as a technical writer in an ERP software company, while also working as a freelancer.</p>
-      <p>Over the years, I've work with different clients and employers, most of them in the tech sector.</p>
-      <p>By having a clear understanding of what a client or an employer is looking for, I can offer them the solutions they need.</p>
+   <section class="page--one">
+        <section class="page--one--left">
+            <img src="./resources/img.jpg" class="page--one--image">
+            <h2 id="my-name">Edward Orlando (He/Him)</h2>
+            <h3 id="job-title">Technical Writer</h3>
+            <hr>
+            <h2 id="simple-is-better">Simple is better</h2>
+            <p id="my-story">I am a technical writer, eager to join an innovative organization. I take what's technical, and make it simple so that everyone can understand it.</p>
+        </section>
+        <section class="page--one--right">
+            <h2>About me</h2>
+            <hr>
+            <div class="page--one--right--education">
+                <h3>Education</h3>
+                <span class="milestone">
+                    <p class="year">2017 - 2019 </p>
+                    <span class="milestone-right">
+                        <p class="title">Bachelor of Science in Engineering</p>
+                        <p class="institution-name">Purdue University, West Lafayette, USA</p>
+                        <p class="description">GPA: 3.67</p>
+                    </span>
+                </span>
+                
+                <span class="milestone">
+                    <p class="year">2022 - 2023</p>
+                    <span class="milestone-right">
+                        <p class="title">Web development</p>
+                        <p class="institution-name">freeCodeCamp</p>
+                        <p class="description">Responsive Web Design, JavaScript ES6, React.js</p>
+                    </span>
+                </span>
+            </div>
+            <hr>
+            <div class="page--one--right--experience">
+                <h3>Experience</h3>
+                <span class="milestone">
+                    <p class="year">2022 - Now</p>
+                    <span class="milestone-right">
+                        <p class="title">Technical Writer</p>
+                        <p class="institution-name">Unit 4</p>
+                    </span>
+                </span>
+                <span class="milestone">
+                    <p class="year">2020 - Now</p>
+                    <span class="milestone-right">
+                        <p class="title">Freelance Technical Writer</p>
+                        <p class="institution-name">Various Clients from UpWork</p>
+                    </span>
+                </span>
+                <span class="milestone">
+                    <p class="year">2021 - 2022</p>
+                    <span class="milestone-right">
+                        <p class="title">Lean Specialist</p>
+                        <p class="institution-name">OPPO Manufacturing</p>
+                    </span>
+                </span>
+            </div>
+            <button>Resume</button>
+        </section>
     </section>
-    <section id="experience">
-      <h2>Work Experience</h2>
-      <h3>Technical writer - Unit4 (2022-Present)</h3>
-      <div>
-        <p>Documented the new features and bug fixes in the online help and release notes.</p>
-        <p>Worker on various products, including the main, localization and mobile product.</p>
-        <p>Use Madcap Flare as the authoring tool, with TFS and GIT for source control.</p>
-        <p></p>
-      </div>
-      <h3>Technical Writer - Freelancer for various clients (2020-Present)</h3>
-      <div>
-        <p>Wrote various documentation, including:</p>
-        <ul>
-          <li>User tutorials written in Markdown</li>
-          <li>Knowledge base made in Freshdesk and Zendesk</li>
-          <li>SEO technical blog content in Wordpress</li>
-          <li>Technical documentation in Docusaurus React (MDX)</li>
-          <li>Disaster recovery planning</li>
-        </ul>
-      </div>
-      
-      <h3>Lean Specialist - Oppo Manufacturing (2021-2022)</h3>
-      <div>
-        <p>Made engineering documents, such as work manuals and user guides.</p>
-        <p>Used various diagrams and technical charts to make complex topic easy to understand.</p>
-      </div>
-      
+    <!--SECOND PAGE-->
+    
+    <p class="page--two--title" id="previous-project">Previous project worked on</p>
+    <section class="page--two">     
+        <div class="projects">
+            <div class="project-picture-circle">
+                <a href="https://dataplane.app/docs/" target="_blank"><img src="./resources/dataplane.svg" class="project-picture"></a>
+            </div>
+            <p class="project--title">Dataplane.app</p>
+            <p class="project--description">Migrated Dataplane to Docusaurus</p>
+        </div>
+        <div class="projects">
+            <div class="project-picture-circle">
+                <a href="https://growthwheel-help.freshdesk.com/support/home" target="_blank"><img src="./resources/GrowthWheel-Logo-White.png" class="project-picture"></a>
+            </div>
+            <p class="project--title">Knowledge Hub for GrowthWheel</p>
+            <p class="project--description">Wrote the knowledgehub of GrowthWheel</p>
+        </div>
+        <div class="projects">
+            <div class="project-picture-circle">
+                <a href="https://learn.screencastify.com/hc/en-us" target="_blank"><img src="./resources/screencastify.png" class="project-picture"></a>
+            </div>
+            <p class="project--title">Knowledge Hub for Screencastify</p>
+            <p class="project--description">Wrote the knowledgehub of GrowthWheel</p>
+        </div>
+        <div class="projects">
+            <div class="project-picture-circle">
+                <a href="https://distill.io/blog/" target="_blank"><img src="./resources/distill.png" class="project-picture"></a>
+            </div>
+            <p class="project--title">Web Content for Distill.io</p>
+            <p class="project--description">Wrote Distill blog content for SEO</p>
+        </div>
+        <div class="projects">
+            <div class="project-picture-circle">
+                <a href="https://educationecosystem.com/blog/" target="_blank"><img src="./resources/ee.png" class="project-picture"></a>
+            </div>
+            <p class="project--title">Web Content for Edcuation Ecosystem</p>
+            <p class="project--description">Wrote EE blog content for SEO</p>
+        </div>
+        
+        <div class="projects">
+            <div class="project-picture-circle">
+                <a href="./resources/mining.jpg" target="_blank"><img src="./resources/mining.jpg" class="project-picture"></a>
+            </div>
+            <p class="project--title">Mining Rig (10 x 3060ti)</p>
+            <p class="project--description">Adjust OC settings to optimize hashrate</p>
+        </div>       
     </section>
-    <section id="education">
-      <h2>Education</h2>
-      <h3>Industrial Engineering - Purdue University (2019)</h3>
-      <p>Interested in operations research courses. Relevant courses include:</p>
-      <ul>
-        <li>Linear Programming - developed the Simplex algorithm in Matlab.</li>
-        <li>Computing in Industrial Engineering - Worked on disease spread mitigation using R.</li>
-        <li>Statistical Process Control - Used statistical methods to control a process in Minitab.</li>
-        <li>Human Factors - Conducted research on Human Computer Interaction (HCI) using eye-tracking device.</li>
-      </ul>
-      <p></p>
-      <h3>Certificates</h3>
-      <p>Over the years, I've taken additional courses that are relevant to my work</p>
-      <ul>
-        <li>FreeCodeCamp Responsive Web Certificate - 2023</li>
-        <li>FreeCodeCamp JavaScript Certificate - 2023</li>
-        <li>Udemy Python Data Analysis - 2021</li>
-      </ul>
-      
+    <!--END OF SECOND PAGE-->
+    <section class="footer">
+        <div class="socials">
+            <p class="footer">Connect with me</p>
+            <a href="https://www.linkedin.com/in/edward-o-5b67801b3/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="mailto:edorlando33@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://github.com/eo33/" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://calendly.com/edorlando33/30-min" target="_blank"><i class="fa-solid fa-video"></i></a>
+        </div>
+        <div class="email">
+            <p>edorlando33@gmail.com</p>
+        </div>
     </section>
-    <section id="skills">
-      <h2>Skills</h2>
-      <ul class="skills-list">
-        <li>Madcap Flare Authoring Tool</li>
-        <li>HTML + CSS</li>
-        <li>JavaScript ES6</li>
-        <li>React Docusaurus</li>
-        <li>Python Numpy</li>
-        <li>Microsoft Visio</li>
-        <li>Web content writing (SEO)</li>
-      </ul>
-    </section>
-    <p>Click <a href="./index2.html">here</a> to access the second version of the site</p>
-  </main>
 </body>
 </html>
