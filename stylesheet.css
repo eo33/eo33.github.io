@@ -184,6 +184,7 @@ div.projects{
 }
 
 .socials{
+    margin-top:0;
     margin-left: 6.7rem;
     font-size: 3rem;
 }
@@ -205,5 +206,3 @@ i, i:visited{
     margin-left: auto;
     margin-right: 6.7rem;
 }
-
-
