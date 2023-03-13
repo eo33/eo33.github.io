@@ -206,3 +206,26 @@ i, i:visited{
     margin-left: auto;
     margin-right: 6.7rem;
 }
+
+
+/*DESIGN FOR 1366x768*/
+@media screen and (max-width: 1366px) and (max-height: 768px) {
+    
+    .page--two{
+        height:fit-content;
+    }
+
+    .project--description{
+        font-size: medium;
+    }
+
+    .year{
+        font-size: 1rem;
+    }
+    .title{
+        font-size: 1.25rem;
+    }
+    .milestone-right{
+        margin-right: auto;
+    }
+}
