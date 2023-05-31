@@ -20,7 +20,7 @@ Here are the steps that I take to create my personal site:
 
 ## Requirements
 
-Here are the personal requirements I came up with when designing the site:
+Here are my personal requirements:
 1. The site is responsive
 2. It showcase various projects
 3. Content are not hardcoded 
