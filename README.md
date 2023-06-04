@@ -23,8 +23,9 @@ Here are the steps that I take to create my personal site:
 Here are my personal requirements:
 1. The site is responsive
 2. It showcase various projects
-3. Content are not hardcoded 
+3. Content should not be hardcoded if possible 
 4. Should be made up of reusable components
+5. Contain CSS animations 
 
 ## Links to my design in Figma
 - 📱 Mobile design
