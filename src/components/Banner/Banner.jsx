@@ -1,11 +1,12 @@
 import React, { useState, useEffect }  from "react";
 import 'bootstrap/dist/css/bootstrap.css';
-import "./Banner.css";
-import 'animate.css/animate.min.css';
 import {Container} from 'react-bootstrap'
+import 'animate.css/animate.min.css';
+
+import "./Banner.css";
 import descriptionData from './desc.json'
 
-//class="container-fluid bg-secondary"
+
 function Banner() {
     
       const [currentIndex, setCurrentIndex] = useState(0);
@@ -13,7 +14,7 @@ function Banner() {
       useEffect(() => {
         const interval = setInterval(() => {
           setCurrentIndex(prevIndex => (prevIndex + 1) % descriptionData.desc.length);
-        }, 1000);
+        }, 2000);
     
         return () => {
           clearInterval(interval);
@@ -21,11 +22,11 @@ function Banner() {
       }, [descriptionData.desc.length]);
 
     return(
-        <div className="jumbotron vh-100">
-            <Container fluid className="banner-container h-50 d-flex flex-column justify-content-center align-items-center">
-                <h1 className="display-1 text-white text-center">Edward Orlando</h1>
+        <div className="jumbotron banner-container">
+            <Container fluid className="h-100 d-flex flex-column justify-content-center align-items-center">
+                <h1 className="display-1 text-white text-center mx-5">Edward Orlando</h1>
                 {/*USE  {descriptionData.desc[currentIndex]}*/}
-                <p class="lead text-white text-center">I am a {descriptionData.desc[0]}</p>
+                <p class="lead text-white text-center">I am a {descriptionData.desc[currentIndex]}</p>
             </Container>
         </div>
     )

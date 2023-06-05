@@ -1,0 +1,11 @@
+#background-color{
+    background: linear-gradient(#667C9F,#84A4CD);
+}
+
+/*A0C8F6*/
+
+@media(max-width:767px){
+    .about-me{
+        text-align: center;
+    }
+}

@@ -1,7 +1,8 @@
 import React, { useState }  from "react";
 import 'bootstrap/dist/css/bootstrap.css';
-import "./Navbar.css";
 import 'animate.css/animate.min.css';
+
+import "./Navbar.css";
 
 
 function Navbar() {

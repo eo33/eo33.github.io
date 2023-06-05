@@ -1,4 +1,10 @@
 .banner-container{
     background: linear-gradient(#424D69,#667C9F);
+    height: 35vh;
+}
 
+@media (max-width: 767px) {
+    .banner-container{
+        height: 30vh;
+    }
 }
