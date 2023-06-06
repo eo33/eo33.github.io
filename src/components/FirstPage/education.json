@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Web development",
+        "startDate":"2022",
+        "endDate":"2023",
+        "institution":"FreeCodeCamp and Codecademy",
+        "description":"HTML, CSS, JS, React.js, Node.js, BootStrap"
+    },
+    {
+        "title": "Bachelor of Science in Engineering",
+        "startDate":"2017",
+        "endDate":"2019",
+        "institution":"Purdue, West Lafayette, US",
+        "description":"GPA: 3.62 / 4"
+    },
+    {
+        "title": "Associate's degree",
+        "startDate":"2015",
+        "endDate":"2017",
+        "institution":"Bellevue College",
+        "description":""
+    }
+]

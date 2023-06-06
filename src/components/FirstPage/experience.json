@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Technical Writer",
+        "startDate":"2022",
+        "endDate":"Now",
+        "institution":"Unit4",
+        "description":"Software documentation, Release Notes, Online help, Knowledge hub"
+    },
+    {
+        "title": "Freelance Technical Writer",
+        "startDate":"2020",
+        "endDate":"Now",
+        "institution":"Various clients",
+        "description":"Programming tutorials, SEO content, User guides, Technical tutorials"
+    },
+    {
+        "title": "Lean Specialist",
+        "startDate":"2021",
+        "endDate":"2022",
+        "institution":"OPPO Manufacturing",
+        "description":"Resource planning using Numpy, Lean principles, Continuous Improvement, Kaizen, Engineering manuals"
+    }
+]
