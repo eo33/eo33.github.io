@@ -1,7 +1,7 @@
 #background-color{
-    background: linear-gradient(#667C9F,#84A4CD);
+    background: linear-gradient(#667C9F,#A0C8F6,#424D69);
+    margin-bottom: 0;
 }
-
 /*A0C8F6*/
 
 @media(max-width:767px){

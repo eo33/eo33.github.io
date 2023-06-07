@@ -12,10 +12,10 @@ function Navbar() {
     return (
         <nav class="navbar nav-bg navbar-expand-sm navbar-light sticky-top" data-bs-theme="dark">
             <div className="container">
-                <button class="custom-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded={!isNavCollapsed ? true : false} aria-label="Toggle navigation" onClick={handleNavCollapse}>
+                <button class="custom-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarID" aria-controls="navbarID" aria-expanded={!isNavCollapsed ? true : false} aria-label="Toggle navigation" onClick={handleNavCollapse}>
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`} id="navbarsExample09">
+                <div class={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`} id="navbarID">
 
                     <ul className="navbar-nav">
                         <li className="nav-item active animate__animated animate__fadeIn">

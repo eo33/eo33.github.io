@@ -6,33 +6,36 @@ import 'animate.css/animate.min.css';
 function CareerDesc(props){
 
     return(
-        <div className="col-12 mx-4">
-
+        <div className="col-12 col-md-6 mt-4">
             <div className="row">
-                <div className="col-4">
-                    {`${props.desc[0]["startDate"]} - ${props.desc[0]["endDate"]}`}
-                </div>
-                <div className="col-8">
-                    {props.desc[0]["title"]}
+                <div className="col-4 display-5 mb-4">
+                    {props.title}
                 </div>
             </div>
 
-            <div className="row">
-                <div className="col-4">
-                </div>
-                <div className="col-8">
-                    {props.desc[0]["institution"]}
-                </div>
-            </div>
-
-            <div className="row">
-                <div className="col-4">
-                </div>
-                <div className="col-8">
-                    {props.desc[0]["description"]}
-                </div>
-            </div>
+            {/*Dynamically create rows*/}
+            {
+                props.desc.map((item)=>(
+                    <div className="row w-100 mt-4 mb-4">
+                        <div className="col-4 col-lg-3" >
+                            {`${item["startDate"]} - ${item["endDate"]}`}
+                        </div>
+                        <div className="col-8 col-lg-9">
+                            <div className="row fw-bold">
+                                {item["title"]}
+                            </div>
+                            <div className="row mt-3">
+                                {item["institution"]}
+                            </div>
+                            <div className="row mt-3">
+                                {item["description"]}
+                            </div>
+                        </div>
+                    </div>
+                ))
+            }
         </div>
+        
     )
 }
 
