@@ -1,7 +1,7 @@
 {
-    "HTML": "./assets/html.svg",
-    "CSS":"./assets/css.svg",
-    "JavaScript":"./assets/javascript.svg",
+    "HTML5": "./assets/html.svg",
+    "CSS3":"./assets/css.svg",
+    "JavaScript ES6":"./assets/javascript.svg",
     "Python Numpy":"./assets/python.svg",
     "React.js Docusaurus":"./assets/reactjs.svg",
     "Figma":"./assets/figma.svg",

@@ -4,6 +4,15 @@
 }
 /*A0C8F6*/
 
+.button-bg{
+    background-color: #424D69;
+    color:#A0C8F6;
+}
+
+.button-bg:hover{
+    background-color: #424D69;
+}
+
 @media(max-width:767px){
     .about-me{
         text-align: center;

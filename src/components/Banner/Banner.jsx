@@ -8,27 +8,28 @@ import descriptionData from './desc.json'
 
 
 function Banner() {
-    
-      const [currentIndex, setCurrentIndex] = useState(0);
-    
-      useEffect(() => {
-        const interval = setInterval(() => {
-          setCurrentIndex(prevIndex => (prevIndex + 1) % descriptionData.desc.length);
-        }, 2000);
-    
-        return () => {
-          clearInterval(interval);
-        };
-      }, [descriptionData.desc.length]);
 
-    return(
-        <div className="jumbotron banner-container ">
-            <Container fluid className="h-100 d-flex flex-column justify-content-center align-items-center">
-                <h1 className="display-1 text-white text-center mx-5 animate__animated animate__fadeIn">Edward Orlando</h1>
-                {/*USE  {descriptionData.desc[currentIndex]}*/}
-                <p class="lead text-white text-center">I am a {descriptionData.desc[currentIndex]}</p>
-            </Container>
-        </div>
+
+  const [descIndex, setDescIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setDescIndex(prevDescIndex => (prevDescIndex + 1) % descriptionData.desc.length);
+    }, 6000);
+
+    return () => {
+      clearInterval(interval);
+    };
+  }, [descIndex]);
+
+  return(
+      <div className="jumbotron banner-container ">
+          <Container fluid className="h-100 d-flex flex-column justify-content-center align-items-center">
+              <h1 className="display-1 text-white text-center mx-5 animate__animated animate__fadeIn">Edward Orlando</h1>
+              {/*USE  {descriptionData.desc[currentIndex]}*/}
+              <p class="lead text-white text-center">I am a {descriptionData.desc[descIndex]}</p>
+          </Container>
+      </div>
     )
 }
 
