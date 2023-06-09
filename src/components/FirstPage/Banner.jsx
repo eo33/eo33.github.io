@@ -4,18 +4,17 @@ import {Container} from 'react-bootstrap'
 import 'animate.css/animate.min.css';
 
 import "./Banner.css";
-import descriptionData from './desc.json'
 
 
-function Banner() {
+function Banner(props) {
 
-
+  let descriptionData = props.content;
   const [descIndex, setDescIndex] = useState(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
       setDescIndex(prevDescIndex => (prevDescIndex + 1) % descriptionData.desc.length);
-    }, 6000);
+    }, 5000);
 
     return () => {
       clearInterval(interval);
@@ -26,7 +25,7 @@ function Banner() {
       <div className="jumbotron banner-container ">
           <Container fluid className="h-100 d-flex flex-column justify-content-center align-items-center">
               <h1 className="display-1 text-white text-center mx-5 animate__animated animate__fadeIn">Edward Orlando</h1>
-              {/*USE  {descriptionData.desc[currentIndex]}*/}
+
               <p class="lead text-white text-center">I am a {descriptionData.desc[descIndex]}</p>
           </Container>
       </div>

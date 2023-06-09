@@ -1,24 +1,27 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.css';
 import 'animate.css/animate.min.css';
-import "./FirstPageContainer.css";
+import "./HomePage.css";
 
 // Components
-import Cards from "./Cards.jsx";
-import CareerDesc from "./CareerDesc";
+import Banner from "../../components/FirstPage/Banner";
+import Cards from "../../components/FirstPage/Cards";
+import CareerDesc from "../../components/FirstPage/CareerDesc";
 
 // Static objects
-import writtenContent from "./writtenContent.json";
-import strings from "./strings.json";
-import webDevSkills from "./webDevSkills.json";
-import twSeoSkills from "./twSeoSkills.json";
-import experience from "./experience.json";
-import education from "./education.json";
+import desc from "../../textContent/desc.json";
+import writtenContent from "../../textContent/writtenContent.json";
+import strings from "../../textContent/strings.json";
+import webDevSkills from "../../textContent/webDevSkills.json";
+import twSeoSkills from "../../textContent/twSeoSkills.json";
+import experience from "../../textContent/experience.json";
+import education from "../../textContent/education.json";
 
 
-function FirstPageContainer(){
+function HomePage(){
     return(
-        
+        <div className="add-scrollbar">
+            <Banner content={desc}/>
             <div id="background-color">
                 <div className="container">
                     {/*About Me page*/}
@@ -60,8 +63,8 @@ function FirstPageContainer(){
                     </div>
                 </div>
             </div>
-        
+        </div>
     )
 }
 
-export default FirstPageContainer;
+export default HomePage;

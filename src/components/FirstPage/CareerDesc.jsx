@@ -16,7 +16,7 @@ function CareerDesc(props){
             {/*Dynamically create rows*/}
             {
                 props.desc.map((item)=>(
-                    <div className="row w-100 mt-4 mb-4 fs-5">
+                    <div className="row w-100 mt-4 mb-5 py-2 fs-5 h-25">
                         <div className="col-5 col-lg-3" >
                             {`${item["startDate"]} - ${item["endDate"]}`}
                         </div>

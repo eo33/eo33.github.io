@@ -14,7 +14,7 @@ function Footer(){
                     <ul class="nav flex-column ">
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-0">About</a></li>
                         <li class="nav-item mb-2"><a href="/#firstpage-skills" class="nav-link p-0">Skills</a></li>
-                        <li class="nav-item mb-2"><a href="/#firstpage-experience" class="nav-link p-0">Experience</a></li>
+                        <li class="nav-item mb-2"><a href="/#firstpage-experience" class="nav-link p-0">Experience & Education</a></li>
                     </ul>
                 </div>
 

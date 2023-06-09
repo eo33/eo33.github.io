@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef }  from "react";
+import {Link, useLocation} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
 import 'animate.css/animate.min.css';
 import "./Navbar.css";
@@ -8,6 +9,8 @@ function Navbar() {
     const [isNavCollapsed, setIsNavCollapsed] = useState(true);
     const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
 
+    // To create "Active state" in Navbar items
+    const location = useLocation();
 
     // To create drop-down
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -48,12 +51,22 @@ function Navbar() {
                 <div className={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`} id="navbarID">
 
                     <ul className="navbar-nav">
-                        <li className="nav-item active animate__animated animate__fadeIn">
-                            <a className="nav-link active " href="/">Home</a>
+                        <li className="nav-item animate__animated animate__fadeIn">
+                            <Link 
+                                to="/" 
+                                className={`${location.pathname === '/' ? 'active' : ''} nav-link`}
+                            >
+                                Home
+                            </Link>
                         </li>
                         {/*Project page*/}
                         <li className="nav-item animate__animated animate__fadeIn" >
-                            <a className="nav-link " href="/Projects">Projects</a>
+                            <Link 
+                                to="/Projects"
+                                className={`${location.pathname === '/Projects' ? 'active' : ''} nav-link`}
+                            >
+                                Projects
+                            </Link>
                         </li>
                         {/*Dropdown*/}
                         <li 
@@ -65,7 +78,8 @@ function Navbar() {
                                 id="navbarDropdown"
                                 role="button"
                                 aria-expanded={isDropdownOpen ? 'true' : 'false'}
-                                onClick={handleDropdownToggle}
+                                onClick={ () => {handleDropdownToggle();}
+                                }
                             >
                                 Contact
                             </a>
