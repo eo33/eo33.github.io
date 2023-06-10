@@ -1,0 +1,20 @@
+# Web development
+
+My passion for web development began when I started my career as an engineer.
+I was fascinated by how technology can be use to improve and streamline processes.
+However, presenting those result in an appealing way requires a skillset of it's own, 
+and so that's how I began my web development journey. 
+using frontend tools.
+
+# Technical Writing
+
+As a technical writer with over 2 years of experience, my role is to maintain the software documentation page. This includes the updating the release notes, online help, knowledge hub using the docs-as-code approach. Troubleshooting and debugging issues are also part of my work. The technology I am familliar with for documentation are Madcap Flare, React Docusaurus, HTML and CSS.
+
+
+# SEO work
+
+I've written programming and technology related articles for clients to improve traffic on their site. My role includes writing on popular programming channels like Dzone, HackerNoon and Dev.to. The topics that I wrote are mostly technical, ranging from web development to game development. 
+
+# Other work (Not available)
+
+Upcomming

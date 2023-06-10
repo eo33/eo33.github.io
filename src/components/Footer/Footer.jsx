@@ -24,7 +24,6 @@ function Footer(){
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Website development</a></li>
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Technical writing</a></li>
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-0">SEO work</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Other work</a></li>
                     </ul>
                 </div>
 
