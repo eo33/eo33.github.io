@@ -14,7 +14,7 @@ function Banner(props) {
   useEffect(() => {
     const interval = setInterval(() => {
       setDescIndex(prevDescIndex => (prevDescIndex + 1) % descriptionData.desc.length);
-    }, 5000);
+    }, 2000);
 
     return () => {
       clearInterval(interval);

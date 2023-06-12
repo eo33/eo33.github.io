@@ -1,0 +1,69 @@
+{
+    "webDevelopment":[
+        {
+            "name":"Resume site",
+            "techUsed":"React.js, Git, Figma, HTML, CSS, Bootstrap, Animate, Router-dom, Canva",
+            "description":"Create a resume site (this site) using tht tools mentioned above. Design was made using Figma following the common UI/UX design patterns. Stored written content in JSON format to mimic NoSQL database.",
+            "link":""
+        },
+        {
+            "name":"Dataplane.app",
+            "techUsed":"Webflow, React.js Docusaurus, Github, Gitbook, Markdown",
+            "description":"Migrated the documentation page made in Gitbook and homepage made with webflow, to React.js Docusaurus. ",
+            "link":""
+        },
+        {
+            "name":"",
+            "techUsed":"",
+            "description":"",
+            "link":""
+        },
+        {
+            "name":"",
+            "techUsed":"",
+            "description":"",
+            "link":""
+        },
+        {
+            "name":"",
+            "techUsed":"",
+            "description":"",
+            "link":""
+        },
+        {
+            "name":"",
+            "techUsed":"",
+            "description":"",
+            "link":""
+        }
+    ],
+    "techWriting":[
+        {
+            "name":"",
+            "techUsed":"",
+            "description":"",
+            "link":""
+        },
+        {
+            "name":"",
+            "techUsed":"",
+            "description":"",
+            "link":""
+        },
+        {
+            "name":"",
+            "techUsed":"",
+            "description":"",
+            "link":""
+        },
+        {
+            "name":"",
+            "techUsed":"",
+            "description":"",
+            "link":""
+        }
+    ],
+    "seo":{
+
+    }
+}
