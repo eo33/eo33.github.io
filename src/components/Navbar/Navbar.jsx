@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef }  from "react";
-import {Link, useLocation} from "react-router-dom";
+import {Link, useLocation, useMatch } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
 import 'animate.css/animate.min.css';
 import "./Navbar.css";
@@ -32,7 +32,11 @@ function Navbar() {
           window.removeEventListener('click', handleOutsideClick);
         };
       }, [isDropdownOpen]);
+
     
+    // Check if the current route matches the "/project/*" pattern
+    const isProjectsActive = !!useMatch("/Projects/*");
+
     return (
         <nav className="navbar nav-bg navbar-expand-sm navbar-light sticky-top" data-bs-theme="dark">
             <div className="container">
@@ -63,7 +67,7 @@ function Navbar() {
                         <li className="nav-item animate__animated animate__fadeIn" >
                             <Link 
                                 to="/Projects"
-                                className={`${location.pathname === '/Projects' ? 'active' : ''} nav-link`}
+                                className={`${isProjectsActive ? "active" : ""} nav-link`}
                             >
                                 Projects
                             </Link>

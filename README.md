@@ -30,5 +30,5 @@ Here are my personal requirements:
 5. Contain CSS animations 
 
 ## Links to my design in Figma
-- 📱 Mobile design
-- 🖥️ Desktop design
+- 📱 [Mobile design](https://www.figma.com/file/LaiPGIQNmfcFlnkQDMminw/Personal-resume-site?type=design&node-id=0%3A1&t=SB7SQJ3pPgSo65eu-1)
+- 🖥️ [Desktop design](https://www.figma.com/file/LaiPGIQNmfcFlnkQDMminw/Personal-resume-site?type=design&node-id=0%3A1&t=SB7SQJ3pPgSo65eu-1)

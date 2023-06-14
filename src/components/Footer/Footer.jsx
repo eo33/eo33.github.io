@@ -1,6 +1,7 @@
 import React, { useState }  from "react";
 import 'bootstrap/dist/css/bootstrap.css';
 import 'animate.css/animate.min.css';
+import {Link, useLocation, useMatch } from "react-router-dom";
 
 import "./Footer.css";
 
@@ -12,18 +13,26 @@ function Footer(){
                 <div class="col-6 col-md-3">
                     <a class="nav-link text-white"><h5>Home</h5></a>
                     <ul class="nav flex-column ">
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0">About</a></li>
+                        <li class="nav-item mb-2"><a href="/" class="nav-link p-0">About</a></li>
                         <li class="nav-item mb-2"><a href="/#firstpage-skills" class="nav-link p-0">Skills</a></li>
                         <li class="nav-item mb-2"><a href="/#firstpage-experience" class="nav-link p-0">Experience & Education</a></li>
                     </ul>
                 </div>
 
                 <div class="col-6 col-md-3">
-                    <a href="#" class="nav-link p-0 text-white"><h5>Projects</h5></a>
+                    <Link to="/Projects" class="nav-link p-0 text-white">
+                        <h5>Projects</h5>
+                    </Link>
                     <ul class="nav flex-column ">
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Website development</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Technical writing</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0">SEO work</a></li>
+                        <li class="nav-item mb-2">
+                            <Link to="/Projects/web-development" class="nav-link p-0">Website development</Link>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <Link to="/Projects/technical-writing" class="nav-link p-0">Technical writing</Link>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <Link to="/Projects/seo-work" class="nav-link p-0">SEO work</Link>
+                        </li>
                     </ul>
                 </div>
 
