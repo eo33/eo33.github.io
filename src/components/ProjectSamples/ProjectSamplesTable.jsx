@@ -1,4 +1,4 @@
-import React, { useMemo }  from "react";
+import React, { useEffect, useMemo }  from "react";
 import {Link} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
 import 'animate.css/animate.min.css';
@@ -9,6 +9,13 @@ import projectSamples from "../../textContent/projectSamples.json";
 
 function ProjectSamplesTable(props){
     window.scrollTo(0, 0);
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      
+        return () => {
+          window.scrollTo(0, 0);
+        };
+    }, [props.path]);
 
     const formattedPath = props.path
         .split('-')

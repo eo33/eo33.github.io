@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import {Link} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
 import 'animate.css/animate.min.css';
@@ -7,7 +7,10 @@ import "./ProjectSamples.css";
 import projectSamples from "../../textContent/projectSamples.json";
 
 function ProjectSamples(props) {
-    window.scrollTo(0, 0);
+
+    useEffect( () => {
+        window.scrollTo(0, 0);
+    },[props.path])
 
     const formattedPath = props.path
         .split('-')

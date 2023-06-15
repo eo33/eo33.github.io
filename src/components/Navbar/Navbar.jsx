@@ -66,7 +66,7 @@ function Navbar() {
                         {/*Project page*/}
                         <li className="nav-item animate__animated animate__fadeIn" >
                             <Link 
-                                to="/Projects"
+                                to="/projects"
                                 className={`${isProjectsActive ? "active" : ""} nav-link`}
                             >
                                 Projects

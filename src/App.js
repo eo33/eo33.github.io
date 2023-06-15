@@ -7,8 +7,6 @@ import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import ProjectSamples from './components/ProjectSamples/ProjectSamples';
 import ProjectSamplesTable from './components/ProjectSamples/ProjectSamplesTable';
-import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
-
 
 // Pages component
 import HomePage from './pages/HomePage/HomePage';
@@ -18,7 +16,6 @@ function App() {
   return ( 
     <>
       <Navbar/>
-      <ScrollToTop />
       <Routes>
         <Route path="/" element={<HomePage />}/>
         <Route path="/Projects" >

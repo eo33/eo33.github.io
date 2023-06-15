@@ -24,7 +24,7 @@ function Banner(props) {
   return(
       <div className="jumbotron banner-container ">
           <Container fluid className="h-100 d-flex flex-column justify-content-center align-items-center">
-              <h1 className="display-1 text-white text-center mx-5 animate__animated animate__fadeIn">Edward Orlando</h1>
+              <h1 className="display-1 text-white text-center mx-5 animate__animated animate__bounce animate__delay-1s">Edward Orlando</h1>
 
               <p class="lead text-white text-center">I am a {descriptionData.desc[descIndex]}</p>
           </Container>

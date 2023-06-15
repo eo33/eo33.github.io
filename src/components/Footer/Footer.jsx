@@ -20,18 +20,18 @@ function Footer(){
                 </div>
 
                 <div class="col-6 col-md-3">
-                    <Link to="/Projects" class="nav-link p-0 text-white">
+                    <Link to="/projects" class="nav-link p-0 text-white">
                         <h5>Projects</h5>
                     </Link>
                     <ul class="nav flex-column ">
                         <li class="nav-item mb-2">
-                            <Link to="/Projects/web-development" class="nav-link p-0">Website development</Link>
+                            <Link to="/projects/web-development" class="nav-link p-0">Website development</Link>
                         </li>
                         <li class="nav-item mb-2">
-                            <Link to="/Projects/technical-writing" class="nav-link p-0">Technical writing</Link>
+                            <Link to="/projects/technical-writing" class="nav-link p-0">Technical writing</Link>
                         </li>
                         <li class="nav-item mb-2">
-                            <Link to="/Projects/seo-work" class="nav-link p-0">SEO work</Link>
+                            <Link to="/projects/seo-work" class="nav-link p-0">SEO work</Link>
                         </li>
                     </ul>
                 </div>
