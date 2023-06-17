@@ -70,11 +70,11 @@ function HomePage(){
                             </div>
                         </div>
                     </div>
-                    
-                    <div className="row text-white mt-md-5 py-md-5" >
+
+                    <div className="row text-white mt-md-5 py-md-5" id="firspage-webdev-skills">
                             <h4 className="display-5 mt-5 ">{strings.skillsTitle}</h4>
                     </div>
-
+                    
                     <div className="animate__animated animate__fadeInLeft fade-in-left animate-left-scroll" id="firstpage-skills">
                         {/*Skill section*/}
                         <div className="row text-white mt-1">
@@ -91,6 +91,7 @@ function HomePage(){
                     </div>
 
                     {/*Education and Experience*/}
+                    <div id="firstpage-experience-education"></div>
                     <div id="firstpage-experience" className="animate__animated animate__fadeInLeft fade-in-left animate-left-scroll">
                         <div className="row text-white mt-5 px-2">  
                             <CareerDesc desc={experience} title="Experience"/>

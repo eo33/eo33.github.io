@@ -8,14 +8,10 @@ import { useTable } from 'react-table';
 import projectSamples from "../../textContent/projectSamples.json";
 
 function ProjectSamplesTable(props){
-    window.scrollTo(0, 0);
-    useEffect(() => {
+    
+    useEffect( () => {
         window.scrollTo(0, 0);
-      
-        return () => {
-          window.scrollTo(0, 0);
-        };
-    }, [props.path]);
+    },[props.path])
 
     const formattedPath = props.path
         .split('-')

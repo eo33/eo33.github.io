@@ -8,10 +8,6 @@ import projectSamples from "../../textContent/projectSamples.json";
 
 function ProjectSamples(props) {
 
-    useEffect( () => {
-        window.scrollTo(0, 0);
-    },[props.path])
-
     const formattedPath = props.path
         .split('-')
         .map(word => word.charAt(0).toUpperCase() + word.slice(1))

@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import 'bootstrap/dist/css/bootstrap.css'
 import "./ProjectsPage.css";
 import {Link, useLocation} from "react-router-dom";
