@@ -8,6 +8,13 @@
             "link":"https://github.com/eo33/eo33.github.io/tree/main"
         },
         {
+            "name":"Interactive Image Gallery",
+            "techUsed":"JQuery, Git, HTML, CSS, Bootstrap",
+            "description":"Created an interactive web application using JQuery to update and manipulate the DOM elements. Used Bootstrap for CSS styling.",
+            "image":"../assets/samples/interactive.png",
+            "link":"https://eo33.github.io/interactive-image-gallery/"
+        },
+        {
             "name":"Dataplane.app",
             "techUsed":"Webflow, React.js Docusaurus, Github, Gitbook, Markdown",
             "description":"Migrated the documentation page made in Gitbook and homepage made with webflow to React.js Docusaurus. ",
@@ -26,7 +33,7 @@
             "techUsed":"React.js, Markdown, Linux",
             "description":"The original deliverables was a series of markdown files on the following network commands: NGINX, tracert and dig. Then, I used those files to create a documentation site using React.js",
             "image":"../assets/samples/server.png",
-            "link":"https://github.com/eo33/traceroute"
+            "link":"https://server-tutorials.netlify.app/"
         },
         {
             "name":"Spotify playlist",
@@ -70,7 +77,7 @@
             "techUsed":"React.js, Markdown, Linux",
             "description":"The original deliverables was a series of markdown files on the following network commands: NGINX, tracert and dig. Then, I used those files to create a documentation site using React.js",
             "image":"../assets/samples/server.png",
-            "link":"https://github.com/eo33/traceroute"
+            "link":"https://server-tutorials.netlify.app/"
         }
     ],
     "seo-work": [

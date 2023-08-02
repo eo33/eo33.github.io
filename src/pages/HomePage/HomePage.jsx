@@ -66,7 +66,9 @@ function HomePage(){
                             <h3 className=" text-white display-4 about-me">{strings.aboutTitle}</h3>
                             <h5 className="lead text-white mt-3 py-2 ">{writtenContent.introduction}</h5>
                             <div className="d-flex justify-content-end mt-2 mt-5">
-                                <button type="button" class="btn btn-primary mt-4 button-bg mb-3">{strings.downloadResume}</button>
+                                <a href="./assets/RESUME_WD.pdf" download="EO_resume.pdf">
+                                    <button type="button" class="btn btn-primary mt-4 button-bg mb-3">{strings.downloadResume}</button>
+                                </a>
                             </div>
                         </div>
                     </div>
