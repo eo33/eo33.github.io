@@ -22,7 +22,7 @@ const ProjectsPage = () => {
               <div className="col g-4 mb-3">
                 <div className="card h-100 bg-transparent text-white border-0">
                   <div className="card-body">
-                    <h5 className="card-title text-center fs-3 mb-4">{key.title}</h5>
+                    <h5 className="card-title text-center fs-4 mb-4">{key.title}</h5>
                     <Link to={`${key.title.toLowerCase().replace(/ /g, "-")}`}>
                       <img src={key.image} alt={`${key.title} image`} className="card-img-top rounded" />
                     </Link>

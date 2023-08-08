@@ -1,18 +1,17 @@
 [
-    {
-        "title":"Web development",
-        "description":"My passion for web development began when I started my career as an engineer. I was fascinated by how technology can be used to improve and streamline processes. However, these streamlined processes are often not presented in an intuitive way. Designing a system that can be used by non-technical people requires a skillset of its own. That's how I embarked on my web development journey",
-        "image":"./assets/projects/Website.jpg"
-    },
-    {
-        "title":"Technical writing",
-        "description":"In my current role as a technical writer, my main responsibility is to maintain the software documentation page. This involves updating various components, such as release notes, online help, and the knowledge hub, using a method called 'docs-as-code.' Additionally, I troubleshoot and debug issues as part of my daily work. I am familiar with several technologies for documentation, including Madcap Flare, React Docusaurus, HTML, and CSS.",
-        "image":"./assets/projects/Techwriting.jpg"
-        
-    },
-    {
-        "title":"SEO work",
-        "description":"I have written articles about programming and technology as part of companies' marketing strategies. Some of my articles have been featured on popular programming channels like Dzone, HackerNoon, and Dev.to. I mainly write about programming topics, including web development, React.js, and Python.",
-        "image":"./assets/projects/Analytics.jpg"
-    }
+	{
+		"title": "Web development",
+		"description": "My passion for web development began when I started my career as an engineer. I was fascinated by how technology can be used to improve and streamline processes. However, these streamlined processes are often not presented in an intuitive way. Designing a system that can be used by non-technical people requires a skillset of its own. That's how I embarked on my web development journey",
+		"image": "./assets/projects/Website.jpg"
+	},
+	{
+		"title": "Documentation Developer",
+		"description": "In my current role as a documentation developer, my main responsibility is to maintain the software documentation page. This involves updating various components, such as release notes, online help, and the knowledge hub, using a method called 'docs-as-code.' Additionally, I troubleshoot and debug issues as part of my daily work. I am familiar with several technologies for documentation, including Madcap Flare, React Docusaurus, HTML, and CSS.",
+		"image": "./assets/projects/Techwriting.jpg"
+	},
+	{
+		"title": "SEO work",
+		"description": "I have written articles about programming and technology as part of companies' marketing strategies. Some of my articles have been featured on popular programming channels like Dzone, HackerNoon, and Dev.to. I mainly write about programming topics, including web development, React.js, and Python.",
+		"image": "./assets/projects/Analytics.jpg"
+	}
 ]

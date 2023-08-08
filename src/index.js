@@ -1,28 +1,26 @@
-import React, {useLayoutEffect } from 'react';
+import React, { useLayoutEffect } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {BrowserRouter, useLocation}  from "react-router-dom";
+import { BrowserRouter, useLocation } from 'react-router-dom';
 
 // Wrapper to constantly scroll to top on new page
-const Wrapper = ({children}) => {
+const Wrapper = ({ children }) => {
   const location = useLocation();
   useLayoutEffect(() => {
     document.documentElement.scrollTo(0, 0);
   }, [location.pathname]);
-  return children
-} 
+  return children;
+};
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
- 
-    <BrowserRouter>
-      <Wrapper>
-        <App />
-      </Wrapper>
-    </BrowserRouter>
-  
+  <BrowserRouter>
+    <Wrapper>
+      <App />
+    </Wrapper>
+  </BrowserRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function

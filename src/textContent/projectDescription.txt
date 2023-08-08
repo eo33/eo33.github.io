@@ -6,9 +6,9 @@ However, presenting those result in an appealing way requires a skillset of it's
 and so that's how I began my web development journey. 
 using frontend tools.
 
-# Technical Writing
+# Documentation Developer
 
-As a technical writer with over 2 years of experience, my role is to maintain the software documentation page. This includes the updating the release notes, online help, knowledge hub using the docs-as-code approach. Troubleshooting and debugging issues are also part of my work. The technology I am familliar with for documentation are Madcap Flare, React Docusaurus, HTML and CSS.
+As a documentation developer with over 2 years of experience, my role is to maintain the software documentation page. This includes the updating the release notes, online help, knowledge hub using the docs-as-code approach. Troubleshooting and debugging issues are also part of my work. The technology I am familliar with for documentation are Madcap Flare, React Docusaurus, HTML and CSS.
 
 
 # SEO work
