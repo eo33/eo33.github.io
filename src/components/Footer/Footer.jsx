@@ -16,12 +16,6 @@ function Footer(){
                         <li class="nav-item mb-2">
                             <a href="/" class="nav-link p-0">About</a>
                         </li>
-                        <li class="nav-item mb-2">
-                            <a href="/#firspage-webdev-skills" class="nav-link p-0">Skills</a>
-                        </li>
-                        <li class="nav-item mb-2">
-                            <a href="/#firstpage-experience-education" class="nav-link p-0">Experience & Education</a>
-                        </li>
                     </ul>
                 </div>
 
@@ -34,7 +28,7 @@ function Footer(){
                             <Link to="/projects/web-development" class="nav-link p-0">Website development</Link>
                         </li>
                         <li class="nav-item mb-2">
-                            <Link to="/projects/technical-writing" class="nav-link p-0">Technical writing</Link>
+                            <Link to="/projects/documentation-developer" class="nav-link p-0">Documentation development</Link>
                         </li>
                         <li class="nav-item mb-2">
                             <Link to="/projects/seo-work" class="nav-link p-0">SEO work</Link>
@@ -47,8 +41,9 @@ function Footer(){
                     <ul class="nav flex-column">
                         <li class="nav-item mb-2"><a href="https://github.com/eo33/" target="_blank" class="nav-link p-0">GitHub</a></li>
                         <li class="nav-item mb-2"><a href="https://www.linkedin.com/in/edward-o-5b67801b3/" target="_blank" class="nav-link p-0">Linkedin</a></li>
-                        <li class="nav-item mb-2"><a href="https://www.codecademy.com/profiles/object8333617013" class="nav-link p-0">Codecademy</a></li>
-                        <li class="nav-item mb-2"><a href="https://www.freecodecamp.org/edorlando33" class="nav-link p-0">FreeCodeCamp</a></li>
+                        <li class="nav-item mb-2"><a href="https://leetcode.com/eo33/" target="_blank" class="nav-link p-0">LeetCode</a></li>
+                        <li class="nav-item mb-2"><a href="https://www.codecademy.com/profiles/object8333617013" target="_blank" class="nav-link p-0">Codecademy</a></li>
+                        <li class="nav-item mb-2"><a href="https://www.freecodecamp.org/edorlando33" target="_blank" class="nav-link p-0">FreeCodeCamp</a></li>
                     </ul>
                 </div>
 
