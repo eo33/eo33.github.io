@@ -1,6 +1,6 @@
 {
-    "Madcap Flare": "./assets/flare.jpg",
-    "Google Analytics":"./assets/analytics.png",
-    "NeuronWriter":"./assets/neuron.png",
-    "Ahrefs":"./assets/ahref.png"
+  "Similar Web": "./assets/similarweb.png",
+  "Google Analytics": "./assets/analytics.png",
+  "NeuronWriter": "./assets/neuron.png",
+  "Ahrefs": "./assets/ahref.png"
 }
