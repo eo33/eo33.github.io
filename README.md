@@ -38,7 +38,3 @@ Here are my personal requirements:
 1. gh-pages
 2. bootstrap
 3. animate.css
-
-## Links to my design in Figma
-- 📱 [Mobile design](https://www.figma.com/file/LaiPGIQNmfcFlnkQDMminw/Personal-resume-site?type=design&node-id=0%3A1&t=SB7SQJ3pPgSo65eu-1)
-- 🖥️ [Desktop design](https://www.figma.com/file/LaiPGIQNmfcFlnkQDMminw/Personal-resume-site?type=design&node-id=0%3A1&t=SB7SQJ3pPgSo65eu-1)
