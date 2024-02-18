@@ -1,10 +1,14 @@
 {
-    "HTML5": "./assets/html.svg",
-    "CSS3":"./assets/css.svg",
-    "JavaScript ES6":"./assets/javascript.svg",
-    "Python Numpy":"./assets/python.svg",
-    "React.js Docusaurus":"./assets/reactjs.svg",
-    "Figma":"./assets/figma.svg",
-    "R":"./assets/r.svg",
-    "BootStrap":"./assets/bootstrap.svg"
+  "Madcap Flare": "./assets/flare.jpg",
+  "Docusaurus": "./assets/docusaurus.svg",
+  "MkDocs": "./assets/MkDocs.png",
+  "MDX 3.0": "./assets/mdx2.svg",
+  "HTML5": "./assets/html.svg",
+  "CSS3": "./assets/css.svg",
+  "JavaScript": "./assets/javascript.svg",
+  "Postman": "./assets/postman.svg",
+  "Git Book": "./assets/gitbook.svg",
+  "WordPress": "./assets/wordpress.svg",
+  "Figma": "./assets/figma.svg",
+  "Canva": "./assets/canva.svg"
 }
