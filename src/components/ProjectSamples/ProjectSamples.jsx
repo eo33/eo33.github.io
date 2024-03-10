@@ -1,4 +1,3 @@
-import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.css";
 import "animate.css/animate.min.css";
@@ -44,6 +43,7 @@ function ProjectSamples(props) {
                     <img
                       src={elem["image"]}
                       class="img-fluid card-image-style border border-1 rounded"
+                      alt=""
                     />
                   </a>
                 </div>
