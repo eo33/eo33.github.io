@@ -66,16 +66,7 @@ function HomePage() {
               <h5 className="lead text-white mt-3 py-2 ">
                 {writtenContent.introduction}
               </h5>
-              <div className="d-flex justify-content-end mt-2 mt-5">
-                <a href="./assets/RESUME_EdO.pdf" download="Resume.pdf">
-                  <button
-                    type="button"
-                    class="btn btn-primary mt-4 button-bg mb-3"
-                  >
-                    {strings.downloadResume}
-                  </button>
-                </a>
-              </div>
+              <div className="d-flex justify-content-end mt-2 mt-5"></div>
             </div>
           </div>
 
