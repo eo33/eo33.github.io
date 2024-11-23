@@ -1,23 +1,30 @@
 [
   {
+    "title": "Senior Technical Writer",
+    "startDate": "2024",
+    "endDate": "Now",
+    "institution": "ClickSend",
+    "description": "API docs, Get started guides, Postman"
+  },
+  {
     "title": "Documentation Developer",
     "startDate": "2022",
     "endDate": "2024",
     "institution": "Unit4",
-    "description": "Online help, Software documentation, Release Notes, Knowledge hub"
+    "description": "Online help, Release Notes, Knowledge hub"
   },
   {
     "title": "Freelance Technical Writer",
     "startDate": "2020",
     "endDate": "Now",
     "institution": "Various clients",
-    "description": "Documentation sites, SEO content, WordPress, Programming tutorials"
+    "description": "Documentation sites, SEO content, WordPress, tutorials"
   },
   {
     "title": "Lean Specialist",
     "startDate": "2021",
     "endDate": "2022",
     "institution": "OPPO Manufacturing",
-    "description": "Lean principles, Continuous Improvement, Kaizen, Engineering manuals"
+    "description": "Engineering manuals, SOPs, Continuous Improvement"
   }
 ]

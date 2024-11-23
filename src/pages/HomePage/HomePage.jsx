@@ -102,8 +102,13 @@ function HomePage() {
             className="animate__animated animate__fadeInLeft fade-in-left animate-left-scroll"
           >
             <div className="row text-white mt-5 px-2">
-              <CareerDesc desc={experience} title="Experience" />
-              <CareerDesc desc={education} title="Education" />
+              {/* Explicit column widths */}
+              <div className="col-12 col-md-6">
+                <CareerDesc desc={experience} title="Experience" />
+              </div>
+              <div className="col-12 col-md-6">
+                <CareerDesc desc={education} title="Education" />
+              </div>
             </div>
           </div>
         </div>

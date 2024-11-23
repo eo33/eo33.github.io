@@ -1,17 +1,17 @@
-import React, { useState } from "react";
+import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import "animate.css/animate.min.css";
-import { Link, useLocation, useMatch } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import "./Footer.css";
 
 function Footer() {
   return (
-    <div class="container text-white border-top mt-5 ">
+    <div className="container text-white border-top mt-">
       {/*<footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-4 "> */}
-      <footer class="row p-3 g-4" data-bs-theme="dark">
-        <div class="col-6 col-md-3">
-          <a class="nav-link text-white">
+      <footer className="row p-3 g-4" data-bs-theme="dark">
+        <div className="col-6 col-md-3">
+          <a className="nav-link text-white">
             <h5>Home</h5>
           </a>
           <ul class="nav flex-column ">
