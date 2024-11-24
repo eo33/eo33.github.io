@@ -51,13 +51,38 @@
   ],
   "documentation-developer": [
     {
+      "name": "ClickSend API docs",
+      "techUsed": "Rest API, OAS 3.0, Postman, Browser DevTools, Confluence, Redocly, Pipedream, Datadog",
+      "description": "Owned and managed the API docs site, including the code snippets. Worked cross-functionally with the various dev teams to gather information about the API for the SMS gateway. Analyzed the API using Postman and requests made from the front-end UI.",
+      "image": "../assets/samples/apidocs_clicksend.png",
+      "link": "https://developers.clicksend.com/docs/messaging/sms",
+      "sourceCode": ""
+    },
+    {
+      "name": "ClickSend Get Started Guide",
+      "techUsed": "Java, Maven, cURL, Confluence",
+      "description": "Updated and introduced the get started guides for ClickSend. Made sure that the code snippets, including the SDKs are working in the different programming languages.",
+      "image": "../assets/samples/getstarted_clicksend.png",
+      "link": "https://developers.clicksend.com/sms-quickstart/?lang=nodejs",
+      "sourceCode": ""
+    },
+    {
+      "name": "TheFurnitureBros API documentation",
+      "techUsed": "JSDocs, SwaggerUI, Express JS ",
+      "description": "Wrote the API documentation for The Furniture Bros web application. The docs was written with the code for the API, compiled using JSDocs, and is displayed in the SwaggerUI using Express JS. The API docs follow the OpenAPI 3.0 specification.",
+      "image": "../assets/samples/apidocs.png",
+      "link": "http://www.thefurniturebros.com/api-docs/",
+      "sourceCode": "https://github.com/eo33/ecommerce-app/tree/main/routes"
+    },
+    {
       "name": "Unit4 Online Help",
       "techUsed": "Madcap flare, HTML, CSS, Git, TFS",
-      "description": "Update, maintain and create the online help pages to reflect the new features implemented in the development phase. Work with BA’s to understand the User Story.",
+      "description": "Update, maintain and create the online help pages to reflect the new features implemented in the development phase. Worked with BAs to understand the User Story.",
       "image": "../assets/samples/u4oh.png",
       "link": "http://ubwhelp.unit4cloud.com/BusinessWorldHelpM7/EN/x2master.htm",
       "sourceCode": ""
     },
+
     {
       "name": "Unit4 Release notes",
       "techUsed": "Madcap flare, HTML, CSS, Git, TFS",
@@ -66,14 +91,7 @@
       "link": "https://info.unit4.com/rs/400-HYB-295/images/Unit4-Cloud-Service-Description-Unit4-Financials-v.1.5-January-2021-(EN).pdf",
       "sourceCode": ""
     },
-    {
-      "name": "API documentation",
-      "techUsed": "JSDocs, SwaggerUI, Express JS ",
-      "description": "Wrote the API documentation for The Furniture Bros web application. The docs is compiled using JSDocs, and is displayed in the SwaggerUI using Express JS. The API docs follow the OpenAPI 3.0 specification",
-      "image": "../assets/samples/apidocs.png",
-      "link": "http://www.thefurniturebros.com/api-docs/",
-      "sourceCode": "https://github.com/eo33/ecommerce-app/tree/main/routes"
-    },
+
     {
       "name": "Dataplane.app",
       "techUsed": "Webflow, React.js Docusaurus, Github, Gitbook, Markdown",
