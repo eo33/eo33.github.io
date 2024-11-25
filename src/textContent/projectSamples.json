@@ -9,9 +9,9 @@
       "sourceCode": "https://github.com/eo33/ecommerce-app"
     },
     {
-      "name": "API documentation",
+      "name": "TheFurnitureBros API documentation",
       "techUsed": "JSDocs, SwaggerUI, Express JS ",
-      "description": "Wrote the API documentation in the code. The docs is compiled using JSDocs, and is displayed in the SwaggerUI using Express JS. The API docs follow the OpenAPI 3.0 specification",
+      "description": "Wrote the API documentation for The Furniture Bros web application. The docs was written with the code for the API, compiled using JSDocs, and is displayed in the SwaggerUI using Express JS. The API docs follow the OpenAPI 3.0 specification.",
       "image": "../assets/samples/apidocs.png",
       "link": "http://www.thefurniturebros.com/api-docs/",
       "sourceCode": "https://github.com/eo33/ecommerce-app/tree/main/routes"

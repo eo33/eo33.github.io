@@ -1,7 +1,7 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import "./ProjectsPage.css";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import projectDescription from "../../textContent/projectDescription.json";
 

@@ -87,12 +87,14 @@ function HomePage() {
             </div>
             {/*Web dev cards*/}
             <Cards imagesPath={webDevSkills} />
-            {/*Tech writing skills*/}
+            {/** 
+            SEO heading
             <div className="row text-white mt-2">
               <p className="text-center display-6">{strings.skillsHeading_2}</p>
             </div>
-            {/*TW SEO cards*/}
+            SEO skills logo
             <Cards imagesPath={twSeoSkills} />
+            */}
           </div>
 
           {/*Education and Experience*/}

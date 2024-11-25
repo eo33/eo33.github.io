@@ -5,6 +5,11 @@
     "image": "./assets/projects/Techwriting.jpg"
   },
   {
+    "title": "SEO work",
+    "description": "Technical content for SEO.",
+    "image": "./assets/projects/Analytics2.jpg"
+  },
+  {
     "title": "Web Development",
     "description": "Web application projects.",
     "image": "./assets/projects/Website.jpg"
