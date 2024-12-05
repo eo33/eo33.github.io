@@ -27,7 +27,7 @@
     {
       "name": "Resume site",
       "techUsed": "React.js, Git, Figma, HTML, CSS, Bootstrap, Animate, Router-dom, Canva",
-      "description": "Created a responsive resume site (this site) using React.js. The source code is in GitHub. Design was made using Figma, following the common UI/UX design patterns. Stored written content in JSON format to mimic NoSQL database.",
+      "description": "Created a responsive resume site (this site) using React.js. The source code is in GitHub. Design was made using Figma, following the common UI/UX design patterns. Stored written content in JSON format to mimic NoSQL database. Also followed SEO best practices (e.g using keywords, next-gen images)",
       "image": "../assets/samples/personalPortfolio.webp",
       "link": "https://github.com/eo33/eo33.github.io/tree/main",
       "sourceCode": "https://github.com/eo33/eo33.github.io"
@@ -64,12 +64,20 @@
       "description": "Updated and introduced the get started guides for ClickSend. Made sure that the code snippets, including the SDKs are working in the different programming languages.",
       "image": "../assets/samples/getstarted_clicksend.webp",
       "link": "https://developers.clicksend.com/sms-quickstart/?lang=nodejs",
+      "sourceCode": "https://github.com/eo33/ecommerce-app/tree/main/docs/OAS"
+    },
+    {
+      "name": "TheFurnitureBros API docs v2",
+      "techUsed": "GitBook, OpenAPI specs, REST API",
+      "description": "Created the API docs for TheFurnitureBros in GitBook. Wrote the docs in the OpenAPI Specification, and rendered it in GitBook (powered by Scalar). Also made supporting content, including the release notes, glossary page, and other helpful pages. Aligned the Postman collection with the API docs.",
+      "image": "../assets/samples/tfb_gitbook.webp",
+      "link": "https://docs.thefurniturebros.com/",
       "sourceCode": ""
     },
     {
-      "name": "TheFurnitureBros API documentation",
+      "name": "TheFurnitureBros API docs v1",
       "techUsed": "JSDocs, SwaggerUI, Express JS ",
-      "description": "Wrote the API documentation for The Furniture Bros web application. The docs was written with the code for the API, compiled using JSDocs, and is displayed in the SwaggerUI using Express JS. The API docs follow the OpenAPI 3.0 specification.",
+      "description": "Wrote the API documentation following the docs-as-code approach for The Furniture Bros web application. The docs were written with the code for the API, compiled using JSDocs, and is displayed in the SwaggerUI using Express JS. The API docs follow the OpenAPI 3.0 specification.",
       "image": "../assets/samples/apidocs.webp",
       "link": "http://www.thefurniturebros.com/api-docs/",
       "sourceCode": "https://github.com/eo33/ecommerce-app/tree/main/routes"
@@ -95,7 +103,7 @@
     {
       "name": "Dataplane.app",
       "techUsed": "Webflow, React.js Docusaurus, Github, Gitbook, Markdown",
-      "description": "Migrated and wrote the documentation page made in Gitbook and homepage made with webflow to React.js Docusaurus. ",
+      "description": "Migrated and wrote the documentation page made in GitBook and homepage made with Webflow to React.js Docusaurus. ",
       "image": "../assets/samples/dataplane.webp",
       "link": "https://dataplane.app/docs/",
       "sourceCode": "https://github.com/dataplane-app/dataplane-documentation"
@@ -103,23 +111,23 @@
     {
       "name": "Technical blog posts (SEO)",
       "techUsed": "WordPress, ChatGPT, Ahref, Neuronwriter",
-      "description": "Wrote blog posts on topics such as programming, cyber security, and game development. Also wrote guest posts on programming sites like Dev.to, Dzone, Hackernoon and Tech times.",
+      "description": "Wrote blog posts on topics such as programming, cybersecurity, and game development. Also wrote guest posts on programming sites like Dev.to, Dzone, Hackernoon and Tech times.",
       "image": "../assets/samples/hackernoon.webp",
       "link": "https://hackernoon.com/how-to-use-chatgpt-for-python-programming/",
       "sourceCode": ""
     },
     {
-      "name": "GrowthWheel page",
+      "name": "GrowthWheel help pages",
       "techUsed": "Freshdesk, HTML, CSS",
-      "description": "Create new help pages for common customer issues. Also made the roadmap posts that show customer how the new implemented feature works. Watched loom videos made by the Project Manager to understand the feature works.",
+      "description": "Created new help pages for common customer issues. Also made the roadmap posts to show customers the new features.",
       "image": "../assets/samples/gw.webp",
       "link": "https://growthwheel.freshdesk.com/en/support/home",
       "sourceCode": ""
     },
     {
-      "name": "Server configuration",
+      "name": "Technical help pages",
       "techUsed": "React.js, Markdown, Linux",
-      "description": "The original deliverables was a series of markdown files on the following network commands: NGINX, tracert and dig. Then, I used those files to create a documentation site using React.js",
+      "description": "Made a series of tutorials on the following network commands: NGINX, tracert and dig. Then made a documentation site with those content.",
       "image": "../assets/samples/server.webp",
       "link": "https://server-tutorials.netlify.app/",
       "sourceCode": "https://github.com/eo33/traceroute"
