@@ -2,16 +2,16 @@
   {
     "title": "Documentation Developer",
     "description": "Software documentation samples.",
-    "image": "./assets/projects/Techwriting.jpg"
+    "image": "./assets/projects/Techwriting.webp"
   },
   {
     "title": "SEO work",
     "description": "Technical content for SEO.",
-    "image": "./assets/projects/Analytics2.jpg"
+    "image": "./assets/projects/Analytics2.webp"
   },
   {
     "title": "Web Development",
     "description": "Web application projects.",
-    "image": "./assets/projects/Website.jpg"
+    "image": "./assets/projects/Website.webp"
   }
 ]

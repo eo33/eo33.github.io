@@ -54,7 +54,7 @@ function HomePage() {
           <div className="row justify-content-center d-flex">
             <div className="col-lg-6 col-sm-9 p-4 ">
               <img
-                src="./assets/img.jpg"
+                src="./assets/img.webp"
                 alt="Image"
                 className="img-fluid rounded border border-dark animate__animated animate__fadeInLeft fade-in-left"
               />
