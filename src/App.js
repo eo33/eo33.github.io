@@ -29,8 +29,8 @@ function App() {
             element={<ProjectSamples path="web-development" />}
           />
           <Route
-            path="documentation-developer"
-            element={<ProjectSamples path="documentation-developer" />}
+            path="technical-writer"
+            element={<ProjectSamples path="technical-writer" />}
           />
           <Route
             path="seo-work"

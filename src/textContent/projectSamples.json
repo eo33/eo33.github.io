@@ -49,7 +49,7 @@
       "sourceCode": "https://github.com/dataplane-app/dataplane-documentation"
     }
   ],
-  "documentation-developer": [
+  "technical-writer": [
     {
       "name": "ClickSend API docs",
       "techUsed": "Rest API, OAS 3.0, Postman, Browser DevTools, Confluence, Redocly, Pipedream, Datadog",
