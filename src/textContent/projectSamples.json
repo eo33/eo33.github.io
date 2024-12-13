@@ -56,7 +56,7 @@
       "description": "Owned and managed the API docs site, including the code snippets. Worked cross-functionally with the various dev teams to gather information about the API for the SMS gateway. Analyzed the API using Postman and requests made from the front-end UI.",
       "image": "../assets/samples/apidocs_clicksend.webp",
       "link": "https://developers.clicksend.com/docs/messaging/sms",
-      "sourceCode": ""
+      "sourceCode": "https://github.com/eo33/ecommerce-app/tree/main/docs/OAS"
     },
     {
       "name": "ClickSend Get Started Guide",
