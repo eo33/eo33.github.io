@@ -13,7 +13,7 @@ import desc from "../../textContent/desc.json";
 import writtenContent from "../../textContent/writtenContent.json";
 import strings from "../../textContent/strings.json";
 import webDevSkills from "../../textContent/webDevSkills.json";
-import twSeoSkills from "../../textContent/twSeoSkills.json";
+// import twSeoSkills from "../../textContent/twSeoSkills.json";
 import experience from "../../textContent/experience.json";
 import education from "../../textContent/education.json";
 
@@ -60,7 +60,7 @@ function HomePage() {
               />
             </div>
             <div className="col-lg-6 col-sm-9 d-flex-col justify-content-center align-items-center p-3">
-              <h3 className=" text-white display-4 about-me">
+              <h3 className=" text-white display-6 about-me">
                 {strings.aboutTitle}
               </h3>
               <h5 className="lead text-white mt-3 py-2 ">

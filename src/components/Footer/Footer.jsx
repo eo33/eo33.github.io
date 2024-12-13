@@ -29,13 +29,8 @@ function Footer() {
           </Link>
           <ul class="nav flex-column ">
             <li class="nav-item mb-2">
-              <Link to="/projects/documentation-developer" class="nav-link p-0">
-                Documentation development
-              </Link>
-            </li>
-            <li class="nav-item mb-2">
-              <Link to="/projects/seo-work" class="nav-link p-0">
-                SEO work
+              <Link to="/projects/technical-writer" class="nav-link p-0">
+                Technical Writer
               </Link>
             </li>
             <li class="nav-item mb-2">

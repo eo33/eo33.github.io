@@ -17,7 +17,7 @@ function Banner(props) {
         fluid
         className="h-100 d-flex flex-column justify-content-center align-items-center"
       >
-        <h1 className="display-1 text-white text-center mx-5 animate__animated animate__bounce animate__delay-1s">
+        <h1 class="text-white text-center px-3 py-2 animate__animated animate__bounce animate__delay-1s display-4 display-md-3">
           Edward Orlando
         </h1>
 
