@@ -1,12 +1,25 @@
 # Resumte site
 
 Hey there 👋 Welcome to the repository of personal resume site! 
+🕒 From time to time, I will update my website! 
 
-## Tools
+## Getting started (Note to self)
 
-Here are the tools I used to create my site:
+To install the dependencies, run:
+```
+npm install
+```
 
-- ⚛️ React.js
-- 🖍️ BootStrap
-- ✏️ Animate
-- 🎨 Figma
+To run the site locally, run:
+```
+npm run start
+```
+
+To deploy the site in GitHub, run:
+```
+npm run predeploy
+npm run deploy
+```
+
+You can visit the site here:
+eo33.github.io

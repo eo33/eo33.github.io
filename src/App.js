@@ -21,21 +21,26 @@ function App() {
 
       <Routes>
         <Route path="/" element={<HomePage />} />
+        {/*These routes are hardcoded for now because there's only 3 pages.
+        Also, focused on showing technical writing samples for now.
         <Route path="/projects">
           <Route index element={<ProjectsPage />}></Route>
-          {/*These routes are hardcoded for now because there's only 3 pages*/}
           <Route
             path="web-development"
             element={<ProjectSamples path="web-development" />}
           />
           <Route
-            path="technical-writer"
-            element={<ProjectSamples path="technical-writer" />}
-          />
-          <Route
             path="seo-work"
             element={<ProjectSamplesTable path="seo-work" />}
           />
+          <Route
+            path="technical-writer"
+            element={<ProjectSamples path="technical-writer" />}
+          />
+        </Route>
+        */}
+        <Route path="/samples">
+          <Route index element={<ProjectSamples path="technical-writer" />}></Route>
         </Route>
       </Routes>
 

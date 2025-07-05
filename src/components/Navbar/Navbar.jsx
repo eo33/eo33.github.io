@@ -36,6 +36,7 @@ function Navbar() {
     
     // Check if the current route matches the "/project/*" pattern
     const isProjectsActive = !!useMatch("/Projects/*");
+    const isSampleActive = !!useMatch("/samples");
 
     return (
         <nav className="navbar nav-bg navbar-expand-sm navbar-light sticky-top" data-bs-theme="dark">
@@ -63,15 +64,26 @@ function Navbar() {
                                 Home
                             </Link>
                         </li>
-                        {/*Project page*/}
+                        {/*Project page -- Old project page. Focused on showing TW samples now*/}
+                        {/*} 
                         <li className="nav-item animate__animated animate__fadeIn" >
                             <Link 
                                 to="/projects"
                                 className={`${isProjectsActive ? "active" : ""} nav-link`}
                             >
-                                Projects
+                                Project
                             </Link>
                         </li>
+                        */}
+                        {/*Samples page*/}                        
+                        <li className="nav-item animate__animated animate__fadeIn" >
+                            <Link 
+                                to="/samples"
+                                className={`${isSampleActive ? "active" : ""} nav-link`}
+                            >
+                                Samples
+                            </Link>
+                        </li>                        
                         {/*Dropdown*/}
                         <li 
                             className="nav-item dropdown"

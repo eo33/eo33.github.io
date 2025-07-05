@@ -17,10 +17,12 @@ function ProjectSamples(props) {
     <div className="container">
       <div className="row mt-4">
         <div className="col">
-          <div className="display-5 text-white">{formattedPath}</div>
+          {/*<div className="display-5 text-white">{formattedPath}</div>*/}
+          <div className="display-5 text-white">Previous Work</div>
         </div>
       </div>
 
+      {/* Breadcrumb navigation (Hiding it for now)
       <div className="row mt-1 ">
         <div className="col mb-4">
           <div className="text-white">
@@ -31,6 +33,7 @@ function ProjectSamples(props) {
           </div>
         </div>
       </div>
+      */}
 
       <div className="row mt-3">
         <div className="col">

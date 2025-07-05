@@ -3,10 +3,5 @@
     "title": "Technical Writer",
     "description": "Software documentation samples.",
     "image": "./assets/projects/Techwriting.webp"
-  },
-  {
-    "title": "Web Development",
-    "description": "Web application projects.",
-    "image": "./assets/projects/Website.webp"
   }
 ]

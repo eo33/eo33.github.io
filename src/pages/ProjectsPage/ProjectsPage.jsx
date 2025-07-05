@@ -11,7 +11,7 @@ const ProjectsPage = () => {
       <div className="container text-white">
         {/*Title*/}
         <div className="row mt-4 mb-2">
-          <div className="col display-5">Projects</div>
+          <div className="col display-5">Samples</div>
         </div>
         {/*Project cards*/}
         <div className="row row-cols-1 row-cols-md-2 justify-content-center">

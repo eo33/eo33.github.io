@@ -1,17 +1,17 @@
 [
   {
-    "title": "Leadership",
-    "startDate": "2024",
-    "endDate": "2024",
-    "institution": "Udemy",
-    "description": "Leadership styles, management, visibility, delegation"
+    "title": "Master of Information Systems",
+    "startDate": "2025",
+    "endDate": "2026",
+    "institution": "Holmes Institute, Australia",
+    "description": "System Analysis and Design, Business Analytics."
   },
   {
     "title": "Web development",
     "startDate": "2022",
     "endDate": "2023",
-    "institution": "FreeCodeCamp and Codecademy",
-    "description": "HTML, CSS, JS, MERN stack"
+    "institution": "FreeCodeCamp, Codecademy and Udemy",
+    "description": "HTML, CSS, JS, Web services, OpenAPI, REST API, MERN stack"
   },
   {
     "title": "Bachelor of Science in Engineering",
