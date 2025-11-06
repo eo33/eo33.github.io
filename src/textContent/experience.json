@@ -1,30 +1,37 @@
 [
   {
+    "title": "Technical Writer",
+    "startDate": "2025",
+    "endDate": "2025",
+    "institution": "Nufarm",
+    "description": "Created SOPs and work instructions. Used SharePoint to manage documents."
+  },
+  {
     "title": "Senior Technical Writer",
     "startDate": "2024",
     "endDate": "2024",
     "institution": "ClickSend",
-    "description": "Developer docs, API docs, Get started guides, Postman"
+    "description": "Created developer docs, API docs, and get started guides. Tested endpoints using Postman."
   },
   {
     "title": "Technical Writer",
     "startDate": "2022",
     "endDate": "2024",
     "institution": "Unit4",
-    "description": "Online help, Release Notes, Knowledge hub"
+    "description": "Updated the online help, release Notes, and knowledge hub. Used MadCap Flare and SharePoint to manage the documents."
   },
   {
     "title": "Freelance Technical Writer",
     "startDate": "2020",
     "endDate": "Now",
     "institution": "Various clients",
-    "description": "Documentation sites, SEO content, tutorials"
+    "description": "Created documentation sites, SEO content, and technical tutorials"
   },
   {
     "title": "Lean Specialist",
     "startDate": "2021",
     "endDate": "2022",
     "institution": "OPPO Manufacturing",
-    "description": "Engineering manuals, SOPs, Continuous Improvement"
+    "description": "Created engineering manuals, SOPs, and user guides."
   }
 ]

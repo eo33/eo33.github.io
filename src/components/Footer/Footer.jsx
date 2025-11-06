@@ -20,23 +20,10 @@ function Footer() {
                 About
               </a>
             </li>
-          </ul>
-        </div>
-
-        <div class="col-6 col-md-3">
-          <Link to="/projects" class="nav-link p-0 text-white">
-            <h5>Projects</h5>
-          </Link>
-          <ul class="nav flex-column ">
             <li class="nav-item mb-2">
-              <Link to="/projects/technical-writer" class="nav-link p-0">
-                Technical Writer
-              </Link>
-            </li>
-            <li class="nav-item mb-2">
-              <Link to="/projects/web-development" class="nav-link p-0">
-                Website development
-              </Link>
+              <a href="/#/samples" class="nav-link p-0">
+                Samples
+              </a>
             </li>
           </ul>
         </div>

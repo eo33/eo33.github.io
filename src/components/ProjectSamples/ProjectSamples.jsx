@@ -37,9 +37,12 @@ function ProjectSamples(props) {
 
       <div className="row mt-3">
         <div className="col">
-          {/*Iterate over each cards*/}
-          {projectSamples[props.path].map((elem) => (
-            <div class="card my-2 py-4 bg-transparent text-white border-0 border-bottom rounded-0">
+          {/*Iterate over each cards. Remove the last border line*/}
+          {projectSamples[props.path].map((elem,index) => (
+            <div 
+              class={`card my-2 py-4 bg-transparent text-white border-0 rounded-0 ${
+              index !== projectSamples[props.path].length - 1 ? "border-bottom" : ""}`}
+            >
               <div class="row g-0 card-row">
                 <div class="col-md-4 card-image-div p-2">
                   <a href={elem["link"]}>

@@ -56,7 +56,7 @@
       "description": "Owned and maintained the API documentation site, including managing and updating code snippets. Collaborated closely with multiple development teams to gather technical insights on the SMS gateway API. Conducted in-depth analysis of the API using Postman and front-end network requests to ensure accuracy and usability.",
       "image": "../assets/samples/apidocs_clicksend.webp",
       "link": "https://developers.clicksend.com/docs/messaging/sms",
-      "sourceCode": "https://github.com/eo33/ecommerce-app/tree/main/docs/OAS"
+      "sourceCode": ""
     },
     {
       "name": "ClickSend Get Started Guide",
@@ -64,7 +64,7 @@
       "description": "Revamped and expanded the “Get Started” guides for ClickSend, ensuring all SDK and code snippet examples were functional across multiple programming languages. Verified integration steps and usability for a smooth developer onboarding experience.",
       "image": "../assets/samples/getstarted_clicksend.webp",
       "link": "https://developers.clicksend.com/sms-quickstart/?lang=nodejs",
-      "sourceCode": "https://github.com/eo33/ecommerce-app/tree/main/docs/OAS"
+      "sourceCode": ""
     },
     {
       "name": "TheFurnitureBros API Documentation v2",
